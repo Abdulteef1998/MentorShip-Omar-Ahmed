@@ -13,6 +13,17 @@ extension DrinkTypeX on DrinkType {
         return 'Hibiscus Tea';
     }
   }
+
+  String get imagePath {
+    switch (this) {
+      case DrinkType.shai:
+        return 'assets/images/tea.png';
+      case DrinkType.turkishCoffee:
+        return 'assets/images/coffee.png';
+      case DrinkType.hibiscusTea:
+        return 'assets/images/hibiscus.png';
+    }
+  }
 }
 
 @immutable
