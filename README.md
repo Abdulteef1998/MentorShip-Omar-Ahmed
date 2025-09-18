@@ -17,25 +17,25 @@ The app is built following **OOP & SOLID principles**, ensuring modularity, enca
 ---
 
 ## Project Structure
-
 lib/
-├── main.dart # Entry point, sets up routes for Orders & Dashboard
+├── main.dart                 # Entry point, sets up routes for Orders & Dashboard
 ├── models/
-│ └── order.dart # Order model + DrinkType enum with imagePath
+│   └── order.dart            # Order model + DrinkType enum with imagePath
 ├── ui/
-│ ├── screens/
-│ │ ├── orders_screen.dart # Shows list of orders, add & delete functionality
-│ │ ├── add_order_screen.dart # Form to add new orders
-│ │ └── dashboard_screen.dart # Shows order statistics and top-selling drinks
-│ └── widgets/
-│ └── order_card.dart # Card widget for each order with image & delete button
-assets/
-└── images/
-├── shai.png
-├── turkish_coffee.png
-└── hibiscus.png
-assets/screenshots/ # Screenshots of the app for README
-pubspec.yaml # Flutter settings & assets declaration
+│   ├── screens/
+│   │   ├── orders_screen.dart       # Shows list of orders, add & delete functionality
+│   │   ├── add_order_screen.dart    # Form to add new orders
+│   │   └── dashboard_screen.dart    # Shows order statistics and top-selling drinks
+│   └── widgets/
+│       └── order_card.dart          # Card widget for each order with image & delete button
+├── assets/
+│   ├── images/
+│   │   ├── shai.png
+│   │   ├── turkish_coffee.png
+│   │   └── hibiscus.png
+│   └── screenshots/                 # Screenshots of the app for README
+└── pubspec.yaml                      # Flutter settings & assets declaration
+
 
 
 ---
