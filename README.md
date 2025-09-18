@@ -17,6 +17,7 @@ The app is built following **OOP & SOLID principles**, ensuring modularity, enca
 ---
 
 ## Project Structure
+![Project Structure](assets/screenshots/projectstructure.png)
 lib/
 ├── main.dart                 # Entry point, sets up routes for Orders & Dashboard
 ├── models/
